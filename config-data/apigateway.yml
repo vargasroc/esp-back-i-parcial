@@ -10,11 +10,11 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: msplaylist
+        - id: mscatalog
           uri: lb://api-catalog
           predicates:
             - Path=/api/v1/catalogs/**
-        - id: msmusic
+        - id: msmovie
           uri: lb://api-movie
           predicates:
             - Path=/api/v1/movies/**
