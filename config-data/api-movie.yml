@@ -7,7 +7,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/movie-dev
     username: root
-    password: 1234
+    password: rocyHS02*
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
